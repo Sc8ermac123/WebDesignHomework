@@ -1,6 +1,5 @@
-1.
-2.
-3.
-4.
-5.
-6.
+1. A user interface is used by a client to interact with the Rendering engine through the Browser engine, which communicates through the network. The rendering engine is the backbone of the program
+2. DOM means Document Object Model. It is an interface to a document and stipulates how that document is accessed and changed by defining its structure in a logical way
+3. HTML is the foundation of base of the website, while XHTML is the combination of HTML and XML to fix some HTML on smaller devices
+4. <!DOCTYPE> <root> <head> <body>
+5. Index is usually the homepage of the site
