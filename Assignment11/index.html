@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <title>
+      Testing with Font Families
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="css/Code.css"/> <!-- This is the CSS sheet holding all of the styles and fonts -->
+
+
+    <h1 id="placeholder1">Welcome to the randomized font page! Each time you refresh the page, the text below will change. Below is the description of web design according to Wikipedia. Link down below.</h1> 
+  </head>
+
+  <body>
+    <body onload="RandomizeFontFamily()"> <!--This is the trigger for the script-->
+
+    <p id="placeholder2">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all.[1] The term "web design" is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and be up to date with web accessibility guidelines.</p>
+
+      <script> /* This script randomizes the class selected from the CSS sheet. Then applies it to the 3 placeholder texts */
+        var FontFamilies = ["p1","p2","p3","p4"];
+        function RandomizeFontFamily() {
+          var RandomFontFamily = FontFamilies[Math.floor(Math.random() * FontFamilies.length)];
+          document.getElementById("placeholder1").className = RandomFontFamily;
+          var RandomFontFamily = FontFamilies[Math.floor(Math.random() * FontFamilies.length)];
+          document.getElementById("placeholder2").className = RandomFontFamily;
+          var RandomFontFamily = FontFamilies[Math.floor(Math.random() * FontFamilies.length)];
+          document.getElementById("placeholder3").className = RandomFontFamily;
+        }
+      </script>
+
+      <p id="placeholder3"><a href="https://en.wikipedia.org/wiki/Web_design">Link to Wikipedia Page</a></p>
+  </body>
+</html>
