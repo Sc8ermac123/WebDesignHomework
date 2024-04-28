@@ -1,0 +1,43 @@
+
+
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: justify;
+      
+}
+
+.p3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.p4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+}
+
+.coolboxR1{
+    width: 100%;
+    height: 50%;
+    background-color: gray;
+    border-style: solid;
+    border-color: black;
+    border-width: .5em;
+}
+.coolboxR2{
+    width: 100%;
+    height: 50%;
+    background-color: lightgray;
+    overflow: visible;
+    text-indent: 10px;
+}
