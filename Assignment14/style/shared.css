@@ -1,0 +1,205 @@
+/* Shared Styles */
+
+/* Nav Menu up top */
+.navli {
+  float: left;
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003119;
+  position: fixed;
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navli a:hover {
+  background-color: #111;
+}
+
+
+/* Main body of the page*/
+body {
+  background-color: #00200f;
+}
+
+
+/* Title Page Text, usually around the top */
+.TitlePage {
+  padding-top: 5%;
+  font-size: 70px;
+  text-align: center;
+}
+
+
+/* The background in front of the body */
+section {
+  width: 95%;
+  height: auto;
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin: auto;
+  margin-bottom: -170px;
+}
+
+
+/* HomePage Styles */
+
+/* Header for the home page, smaller than title, bigger than sub header */
+.HeaderHomePage {
+  padding-top: 2%;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Text under a header for homepage, smaller than Header */
+.SubHeaderHomePage {
+  padding-top: 2%;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Changes the list overall */
+.list {
+  padding-top: 1%;
+  font-size: 16px;
+}
+
+/* Each bullet point */
+ul {
+  padding-left: 0;
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* Images for the home page */
+.ImageHomePage {
+  padding: 2%;
+  width: 25%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* My work styles */
+
+/* Changes button, mostly used for Behind the Scenes */
+button {
+  background-color: #003119;
+  padding: 10px 14px;
+  margin-left: 44%; 
+  font-size: 14px;
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: #111;
+}
+
+
+
+/* For spacing things out on other work pages and the Contact Page */
+.row {
+  display: flex;
+  padding-bottom: 10%;
+}
+
+.column {
+  flex: 100%;
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Images tailored to fit on other work pages */
+.ImageMyWork {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+/* Captions for said Images */
+.CaptionImageMyWork {
+  padding-bottom: 2%;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Videos tailored to fit on other work pages */
+.VideoMyWork {
+  width: 70%;
+  height: 70%;
+  padding: 1%;
+  display:block;
+  margin: 0 auto;
+}
+
+/* Headers for other work pages */
+.HeaderMyWork {
+  padding-top: 2%;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* SubHeaders for other work pages */
+.SubHeaderMyWork {
+  padding-top: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* For Contact Page */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #003119;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #111;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
